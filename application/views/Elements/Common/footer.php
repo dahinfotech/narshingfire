@@ -73,6 +73,9 @@
     <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.unveilEffects.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
+
+        
+
     <script>
         (function ($) {
             var $container = $('.masonry_wrapper'),

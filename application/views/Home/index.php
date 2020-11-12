@@ -8,7 +8,11 @@
     <!--/SLIDER SECTION -->
     <?php $this->load->view('Elements/Common/slider'); ?>
     <!-- end slider -->
-	
+
+	<!--/SLIDER SECTION -->
+    <?php $this->load->view('Elements/Common/happy_diwali'); ?>
+    <!-- end slider -->
+
 	<section id="features" class="feature-wrapper" style="padding-top: 0px;">
     	<div class="container">
             <div data-scroll-reveal="enter from the bottom after 0.3s" class="title text-center" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
@@ -78,4 +82,8 @@
     <?php $this->load->view('Elements/Common/footer'); ?>
     </section>
      
-   
+    <script>
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>

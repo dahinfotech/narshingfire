@@ -29,22 +29,22 @@
                             <a data-scroll href="#features" class="int-collapse-menu">Why Us ?</a></li>
 
                         <li class="<?php echo (isset($pageName)&&($pageName=='About')) ? 'active' : ''; ?>">
-                            <a data-scroll href="#about" class="int-collapse-menu">About</a></li>
+                            <a  href="<?php echo base_url(); ?>About" class="int-collapse-menu">About</a></li>
 
                         <li class="<?php echo (isset($pageName)&&($pageName=='Services')) ? 'active' : ''; ?>">
-                            <a data-scroll href="#services" class="int-collapse-menu">Services</a></li>
+                            <a  href="<?php echo base_url(); ?>Services" class="int-collapse-menu">Services</a></li>
 
                         <li class="<?php echo (isset($pageName)&&($pageName=='Pricing')) ? 'active' : ''; ?>">
-                            <a data-scroll href="#pricing" class="int-collapse-menu">Pricing</a></li>
+                            <a href="<?php echo base_url(); ?>Pricing" class="int-collapse-menu">Pricing</a></li>
 
                         <li class="<?php echo (isset($pageName)&&($pageName=='Products')) ? 'active' : ''; ?>">
-                            <a data-scroll href="#team" class="int-collapse-menu">Products</a></li>
+                            <a href="<?php echo base_url(); ?>Products" class="int-collapse-menu">Products</a></li>
 
                         <li class="<?php echo (isset($pageName)&&($pageName=='Industries')) ? 'active' : ''; ?>">
-                            <a data-scroll href="#works" class="int-collapse-menu">Industries</a></li>
+                            <a href="<?php echo base_url(); ?>Industries" class="int-collapse-menu">Industries</a></li>
 
 						<li class="<?php echo (isset($pageName)&&($pageName=='Contact')) ? 'active' : ''; ?>">
-                            <a data-scroll href="<?php echo base_url(); ?>Contact" class="int-collapse-menu">Contact</a></li>
+                            <a href="<?php echo base_url(); ?>Contact" class="int-collapse-menu">Contact</a></li>
 
                         </ul>
                     </div><!--/.nav-collapse -->

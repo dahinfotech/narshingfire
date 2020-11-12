@@ -2686,6 +2686,11 @@
 	.logo-header-bottom{
 		margin-top: -24%;
 	}
+
+	.happy-diwali{
+		background-image: url(img/diwali_wishes_gif.gif);
+		height: 500px;
+	}
 	
 	
 /*	################################################################
