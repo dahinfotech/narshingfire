@@ -62,6 +62,8 @@
     </div>
 </div><!-- end container -->
 
+<img src="<?php echo base_url(); ?>assets/img/diwali-dia.gif" class="happy-diwali-sticky" />
+
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>   
     <script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>

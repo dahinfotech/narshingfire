@@ -18,8 +18,11 @@ class About extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-		$this->load->view('About/index');
+	public function index(){
+		$viewData=array(
+			'title'=>'About Us',
+			'pageName'=>'About'
+		);
+		$this->load->view('About/index', $viewData);
 	}
 }

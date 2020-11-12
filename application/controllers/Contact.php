@@ -34,21 +34,22 @@ class Contact extends CI_Controller {
 						<p>Please find my contact details as mention below, I want to use your service. Kindly let me know details.</p>
 						<table>
 							<tr>
-								<th>First Name : </th>
-								<th>$firstname</th>
+								<td>First Name : </td>
+								<td>$firstname</td>
 							</tr>
 							<tr>
 								<td>Email : </td>
 								<td>$email</td>
 							</tr>
 							<tr>
-								<td>Message : </td>
-								<td>$msg</td>
-							</tr>
-							<tr>
 								<td>Phone No : </td>
 								<td>$phone</td>
 							</tr>
+							<tr>
+								<td>Message : </td>
+								<td>$msg</td>
+							</tr>
+							
 						</table>
 					</body>
 				</html>
@@ -60,20 +61,21 @@ class Contact extends CI_Controller {
 
 				$headers = "From: <narshingfire@gmail.com>" . $eol;
 			    $headers .= "MIME-Version: 1.0" . $eol;
+			    $headers .= "Content-type:text/html;charset=UTF-8" . $eol;
 			    $headers .= "Content-Type: multipart/mixed; boundary=\"" . $separator . "\"" . $eol;
 			    $headers .= "Content-Transfer-Encoding: 7bit" . $eol;
-			    $headers .= "This is a MIME encoded message." . $eol;
+			    //$headers .= "This is a MIME encoded message." . $eol;
 
 				/*$headers = "MIME-Version: 1.0" . "\r\n";
 				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 				$headers .= 'From: <info@dahinfotech.com>' . "\r\n";*/
 
-				$body = "--" . $separator . $eol;
-			    $body .= "Content-Type: text/plain; charset=\"iso-8859-1\"" . $eol;
-			    $body .= "Content-Transfer-Encoding: 8bit" . $eol;
+				$body = $eol;
+			    //$body .= "Content-Type: text/plain; charset=\"iso-8859-1\"" . $eol;
+			    //$body .= "Content-Transfer-Encoding: 8bit" . $eol;
 			    $body .= $message . $eol;
 
-				if(mail($to, $subject, $body, $headers)){
+				if(mail($to, 'Web Enquiry- '.$subject, $body, $headers)){
 					echo "success";
 				}
         	}

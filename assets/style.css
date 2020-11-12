@@ -2158,7 +2158,7 @@
 		font-size: 13px;
 		font-weight: 400;
 		margin-bottom: 2px;
-		margin-left: 80px;
+		margin-left: 90px;
 		color: #999;
 	}
 	
@@ -2691,8 +2691,19 @@
 		background-image: url(img/diwali_wishes_gif.gif);
 		height: 500px;
 	}
-	
-	
+	.happy-diwali-sticky{
+		position: -webkit-sticky;
+		position: fixed;
+		right:0px;
+		bottom: 0px;
+		width: 200px;
+		z-index: 9999;
+	}
+	.sidebar-product{
+		height:250px;
+  		overflow-y: scroll;
+  		overflow-x: hidden;
+	}
 /*	################################################################
 	21. CUSTOM CSS SECTION
 	################################################################# */
