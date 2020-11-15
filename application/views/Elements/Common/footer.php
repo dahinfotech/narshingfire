@@ -62,7 +62,7 @@
     </div>
 </div><!-- end container -->
 
-<img src="<?php echo base_url(); ?>assets/img/diwali-dia.gif" class="happy-diwali-sticky" />
+<!-- <img src="<?php //echo base_url(); ?>assets/img/diwali-dia.gif" class="happy-diwali-sticky" /> -->
 
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>   
     <script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
@@ -173,25 +173,39 @@
             })(jQuery);
     </script>
     
-    <!-- Portofolio Pretty photo JS -->       
-    <script src="<?php echo base_url(); ?>assets/js/jquery.prettyPhoto.js"></script>
+   
     <script type="text/javascript">
-        (function($) {
-            "use strict";
-            jQuery('a[data-gal]').each(function() {
-                jQuery(this).attr('rel', jQuery(this).data('gal'));
-            });     
-                jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
-        })(jQuery);
-    </script>
-          
-    <!-- Video Player o-->
-    <script src="<?php echo base_url(); ?>assets/js/jquery.mb.YTPlayer.js"></script>    
-    <script type="text/javascript">
-      (function($) {
-        "use strict"
-          $(".player").mb_YTPlayer();
-        })(jQuery); 
+        $(document).ready(function() {
+            $(".owl-carousel-home").owlCarousel({
+                autoPlay: 3000,
+                items : 4,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3],
+                center: true,
+                nav:true,
+                loop:true,
+                responsive: {
+                    600: {
+                        items: 4
+                    }
+                }
+            });
+
+            $(".owl-carousel").owlCarousel({
+                autoPlay: 3000,
+                items : 4,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3],
+                center: true,
+                nav:true,
+                loop:true,
+                responsive: {
+                    600: {
+                        items: 4
+                    }
+                }
+            });
+        });
     </script>
     
 </body>

@@ -36,49 +36,38 @@
             
     
     <!--/ ABOUT SECTION -->   
-    <section id="about" class="about-wrapper" style="padding-top: 0px;">
+    <section class="about-wrapper" style="padding-top: 0px;">
         <?php $this->load->view('Elements/Common/home_about'); ?>
     <div class="clearfix"></div>
               
     </section><!-- End About Section -->
-            
+     
     <!--/ SERVICE SECTION -->   
-    <section id="services" class="white-wrapper" style="padding-top: 0px !important;">
+    <section class="white-wrapper" style="">
         <div class="container">
             <div class="title text-center">
                 <h2><span class="txt-red">Services</span> we offer</h2>
-            </div><!-- end title -->
-            <?php $this->load->view('Elements/Common/home_service'); ?>
-            
-                   
-    <!-- TESTIMONIAL SECTION -->              
-            <div class="testimonial text-center">
-                <h2 class="three" data-scroll-reveal="enter from the bottom after 0.2s">And What<span class="txt-red"> They Say</span></h2>
-            </div><!-- end title -->
-            
-            <div id="testimonial" class="owl-carousel owl-theme text-center">
-                <div class="testimonial"  data-scroll-reveal="enter from the bottom after 0.3s">
-                    <p>Excellent service of Narshing fire safety</p>
-                    <h1> Harish Aggarwal </h1>
-                </div>
-                <div class="testimonial">
-                    <p>Very nice service of Narshing fire, expert team</p>
-                    <h1> Krihna jain </h1>
-                </div>
-                <div class="testimonial">
-                    <p>Narshing fire also giving very good service</p>
-                    <h1> DANIEL Smith </h1>
-                </div>
-            </div><!-- end #testimonial -->
-            
-            <div class="customNavigation">
-                <a class="btn prev"><i class="fa fa-angle-left fa-2x"></i></a>
-                <a class="btn next"><i class="fa fa-angle-right fa-2x"></i></a>
-            </div><!-- end customnav -->
-       </div> <!-- end container -->
-    </section><!-- Service and Testimonial End -->
+            </div>
+            <?php $this->load->view('Elements/Common/home_service'); ?> 
+       </div>
+    </section>
 
-    <section id="footer" class="footer-wrapper" style="padding-top: 0px !important;">    
+    <section class="parallax" >        
+        <div class="overlay" style="padding-top: 7px;padding-bottom: 0px;">
+            <div class="container">
+                <div class="title text-center">
+                    <h2><span class="txt-red">Our</span> Clients</h2>
+                </div>      
+                <?php $this->load->view('Elements/Common/home_our_client'); ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->              
+    <?php $this->load->view('Elements/Common/testimonial'); ?>
+
+
+    <section id="footer" class="footer-wrapper" style="">    
     <?php $this->load->view('Elements/Common/footer'); ?>
     </section>
      

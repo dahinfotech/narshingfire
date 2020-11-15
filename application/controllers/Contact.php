@@ -83,4 +83,8 @@ class Contact extends CI_Controller {
         echo 'success';
         exit;
 	}
+
+
+
+	
 }

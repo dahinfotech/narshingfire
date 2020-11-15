@@ -52,7 +52,15 @@
     </div>
 </div>
 <!--main-content end--->
-
+<div class="clearfix"></div>
+<section class="parallax" >
+    <div class="overlay" style="padding-top: 7px;padding-bottom: 0px;">
+        <div class="container">
+            <?php $this->load->view('Elements/Common/our_client'); ?>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
 <section class="footer-wrapper" style="padding-top: 0px !important;">    
 <?php $this->load->view('Elements/Common/footer'); ?>
 </section>
