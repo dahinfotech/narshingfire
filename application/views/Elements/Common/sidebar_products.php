@@ -23,13 +23,13 @@
         <div class="row" style="margin-top: 5px;">
             <div class="col-sm-4">
                 <img src="<?php echo base_url(); ?>assets/img/product/portable_extinguisher.jpg" style="width:80px;" alt=""/></div>
-            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products">Portable Extinguisher</a></div>
+            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products/fillingMachine">Extinguisher Filling</a></div>
         </div>
 
         <div class="row" style="margin-top: 5px;">
             <div class="col-sm-4">
                 <img src="<?php echo base_url(); ?>assets/img/product/water_fire_extinguisher.jpg" style="width:80px;" alt=""/></div>
-            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products">Water Fire Extinguisher</a></div>
+            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products/waterSystem">Water Fire Extinguisher</a></div>
         </div>
 
         <div class="row" style="margin-top: 5px;">
@@ -41,7 +41,7 @@
         <div class="row" style="margin-top: 5px;">
             <div class="col-sm-4">
                 <img src="<?php echo base_url(); ?>assets/img/product/suppression_system.png" style="width:80px;" alt=""/></div>
-            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products">Suppression System</a></div>
+            <div class="col-sm-8"><a href="<?php echo base_url(); ?>Products/fireSuppression">Suppression System</a></div>
         </div>
 
     </div>

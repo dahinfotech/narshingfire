@@ -6,11 +6,12 @@
                 <div class="title txt-yellow" ><h3>Narshing Fire & Safety Systems</h3></div>
                 
                 <ul class="pricing clearfix">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Industries</a></li>
-                    <li><a href="">Why Us</a></li>
+                    <li><a href="<?php echo base_url(); ?>Home">Home</a></li>
+                    <li><a href="<?php echo base_url(); ?>About">About Us</a></li>
+                    <li><a href="<?php echo base_url(); ?>Careers">Career</a></li>
+                    <li><a href="<?php echo base_url(); ?>Clients">Clients</a></li>
+                    <li><a href="<?php echo base_url(); ?>Privacy">Privacy Policy</a></li>
+                    <li><a data-scroll="" href="#features">Why Us</a></li>
                 </ul>
             </div><!-- Pricing Box -->
         </div><!-- Column 1 -->

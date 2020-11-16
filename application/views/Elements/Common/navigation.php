@@ -34,8 +34,8 @@
                         <li class="<?php echo (isset($pageName)&&($pageName=='Services')) ? 'active' : ''; ?>">
                             <a  href="<?php echo base_url(); ?>Services" class="int-collapse-menu">Services</a></li>
 
-                        <li class="<?php echo (isset($pageName)&&($pageName=='Pricing')) ? 'active' : ''; ?>">
-                            <a href="<?php echo base_url(); ?>Pricing" class="int-collapse-menu">Pricing</a></li>
+                        <!-- <li class="<?php echo (isset($pageName)&&($pageName=='Pricing')) ? 'active' : ''; ?>">
+                            <a href="<?php echo base_url(); ?>Pricing" class="int-collapse-menu">Pricing</a></li> -->
 
                         <li class="nav-item dropdown" >
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>

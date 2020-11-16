@@ -10,7 +10,7 @@
     <!-- end slider -->
 
 	<!--/SLIDER SECTION -->
-    <?php $this->load->view('Elements/Common/happy_diwali'); ?>
+    <?php //$this->load->view('Elements/Common/happy_diwali'); ?>
     <!-- end slider -->
 
 	<section id="features" class="feature-wrapper" style="padding-top: 0px;">
@@ -72,7 +72,7 @@
     </section>
      
     <script>
-        $(document).ready(function(){
+        /*$(document).ready(function(){
             $("#myModal").modal('show');
-        });
+        });*/
     </script>

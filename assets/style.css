@@ -2731,6 +2731,22 @@
 	     margin-bottom: 15px
 	 }
 
+	.industry-title{
+		background-color: #ddd;
+		border: 2px solid #ddd; 
+		padding-left: 10px;
+	}
+
+	.industry-img{
+		overflow: hidden; 
+		border: #ddd 2px solid;
+	}
+	.industry-title:hover{
+		background-color: #F7C221; 
+		border: 2px solid #ddd; 
+		padding-left: 10px;
+	}
+
 /*	################################################################
 	21. CUSTOM CSS SECTION
 	################################################################# */
