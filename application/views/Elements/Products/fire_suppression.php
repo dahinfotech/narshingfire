@@ -50,5 +50,10 @@
     <div class="clearfix"></div>
     <div class="row">A fire suppression system usually extinguishes the flames through heat absorption. In order to minimize the damage and loses from fire, a fire suppression system might use a gaseous agent or dry chemicals or wet agent.
 	</div>
-
 </div>
+
+<div class="sticky-contact">
+  <a href="javascript:void(0)" class="btn btn-default quote-btn" onclick="productEnquiry('FIRE SUPPRESSION SYSTEM');" >Request A Quote</a>
+</div>
+
+<?php $this->load->view('Elements/Common/request_a_quote'); ?>

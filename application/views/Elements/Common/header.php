@@ -8,6 +8,20 @@
     
     <title><?php echo isset($title)?$title:'Narshing Fire Home'; ?></title>
 
+    <meta name="description" content="Narshing Fire Safety is a full service fire protection company offering installation, maintenance, monitoring and retrofit of your fire life safety systems. Call us 24/7 to learn more." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://narshingfiresafety.com/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Comprehensive Fire Protection | Narshing Fire Services" />
+    <meta property="og:description" content="Narshing Fire is a full service fire protection company offering installation, maintenance, monitoring and retrofit of your fire life safety systems. Call us 24/7 to learn more." />
+    <meta property="og:url" content="https://narshingfiresafety.com/" />
+    <meta property="og:site_name" content="Narshing Fire Services" />
+    <meta property="article:modified_time" content="2020-06-02T14:02:22+00:00" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Comprehensive Fire Protection | Narshing Fire Services" />
+    <meta name="twitter:description" content="Narshing Fire is a full service fire protection company offering installation, maintenance, monitoring and retrofit of your fire life safety systems. Call us 24/7 to learn more." />
+
     <!-- Favicon -->
     <link rel="icon" href="<?=base_url()?>assets/favicon.ico" type="image/ico">
 

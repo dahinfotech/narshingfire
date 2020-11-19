@@ -7,15 +7,10 @@
 
 <div class="main-content" style="padding-top:180px;">
     <div class="container">
-        <div class="col-md-9 blog-content">
-            <?php $this->load->view('Elements/Products/filling_machine'); ?>
+        
+        <?php $this->load->view('Elements/Services/air_duct_cleaning'); ?>
              
-        </div>
-        <asidebar class="col-md-3 borderLeft" data-scroll-reveal="enter from the bottom after 0.1s">
-            <?php $this->load->view('Elements/Common/sidebar_services'); ?>
-            <div style="border-top: 1px solid #ddd;"></div>
-            <?php $this->load->view('Elements/Common/sidebar_industries'); ?>
-        </asidebar>
+        
     </div>
 </div>
 

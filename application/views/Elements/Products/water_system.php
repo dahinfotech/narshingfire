@@ -51,3 +51,9 @@
     </div>
 
 </div>
+
+<div class="sticky-contact">
+  <a href="javascript:void(0)" class="btn btn-default quote-btn" onclick="productEnquiry('Water Mist SYSTEM');" >Request A Quote</a>
+</div>
+
+<?php $this->load->view('Elements/Common/request_a_quote'); ?>

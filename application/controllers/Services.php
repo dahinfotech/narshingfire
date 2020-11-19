@@ -3,23 +3,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Services extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
-	{
+	
+	public function index(){
 		$this->load->view('Services/index');
 	}
+
+	public function airDuctCleaning(){ 
+		$viewData=array(
+			'title'=>'Air Duct Cleaning',
+			'pageName'=>'airDuctCleaning'
+		);
+		$this->load->view('Services/air_duct_cleaning', $viewData);
+	}
+
+	public function passiveFireProtection(){
+		$viewData=array(
+			'title'=>'Passive Fire Protection',
+			'pageName'=>'passiveFireProtection'
+		);
+		$this->load->view('Services/passive_fire_protection', $viewData);
+	}
+
+	public function backFlowDevice(){
+		$viewData=array(
+			'title'=>'Backflow Devices',
+			'pageName'=>'backFlowDevice'
+		);
+		$this->load->view('Services/back_flow_device', $viewData);
+	}
+
+	public function fireExtinguisher(){
+		$viewData=array(
+			'title'=>'Fire Extinguishers',
+			'pageName'=>'fireExtinguisher'
+		);
+		$this->load->view('Services/fire_extinguisher', $viewData);
+	}
+
 }

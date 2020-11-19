@@ -31,8 +31,23 @@
                         <li class="<?php echo (isset($pageName)&&($pageName=='About')) ? 'active' : ''; ?>">
                             <a  href="<?php echo base_url(); ?>About" class="int-collapse-menu">About</a></li>
 
-                        <li class="<?php echo (isset($pageName)&&($pageName=='Services')) ? 'active' : ''; ?>">
-                            <a  href="<?php echo base_url(); ?>Services" class="int-collapse-menu">Services</a></li>
+                        <li class="nav-item dropdown" >
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                            <ul class="dropdown-menu" >
+                                <li class="<?php echo (isset($pageName)&&($pageName=='airDuctCleaning')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo base_url(); ?>Services/airDuctCleaning" class="dropdown-item active">HVAC Air Duct Cleaning</a></li>
+
+                                <li class="<?php echo (isset($pageName)&&($pageName=='passiveFireProtection')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo base_url(); ?>Services/passiveFireProtection" class="dropdown-item active">Passive Fire Protection</a></li>
+
+                                <li class="<?php echo (isset($pageName)&&($pageName=='backFlowDevice')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo base_url(); ?>Services/backFlowDevice" class="dropdown-item active">Backflow Devices</a></li>
+
+                                <li class="<?php echo (isset($pageName)&&($pageName=='fireExtinguisher')) ? 'active' : ''; ?>">
+                                    <a href="<?php echo base_url(); ?>Services/fireExtinguisher" class="dropdown-item active">Fire Extinguishers</a></li>
+
+                            </ul>
+                        </li>
 
                         <!-- <li class="<?php echo (isset($pageName)&&($pageName=='Pricing')) ? 'active' : ''; ?>">
                             <a href="<?php echo base_url(); ?>Pricing" class="int-collapse-menu">Pricing</a></li> -->

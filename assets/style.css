@@ -2746,6 +2746,36 @@
 		border: 2px solid #ddd; 
 		padding-left: 10px;
 	}
+	.borderLeft{
+		border-left:#ddd 3px solid;
+	}
+
+	.sticky-contact {
+	    position: fixed;
+	    bottom: 5%;
+	    right: 0;
+	    z-index: 9999;
+	    right: 1%;
+	}
+
+	.sticky-contact .btn.btn-default.quote-btn {
+	    font-size: 18px;
+	    line-height: 22px;
+	    padding: 12px 30px;
+	}
+	.sticky-contact .btn.btn-default.quote-btn {
+	    background-color: #e54b21;
+	    color: #fff;
+	    font-size: 18px;
+	    font-family: "d-dindin-bold";
+	    padding: 12px 30px;
+	    border: 2px solid #e54b21;
+	    border-radius: 6px;
+	    -webkit-transition: all .3s ease 0s;
+	    transition: all .3s ease 0s;
+	    display: inline-block;
+	    line-height: 22px;
+	}
 
 /*	################################################################
 	21. CUSTOM CSS SECTION

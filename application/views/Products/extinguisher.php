@@ -11,7 +11,7 @@
             <?php $this->load->view('Elements/Products/extinguisher_product'); ?>
              
         </div>
-        <asidebar class="col-md-3" data-scroll-reveal="enter from the bottom after 0.1s">
+        <asidebar class="col-md-3 borderLeft" data-scroll-reveal="enter from the bottom after 0.1s">
             <?php $this->load->view('Elements/Common/sidebar_services'); ?>
             <div style="border-top: 1px solid #ddd;"></div>
             <?php $this->load->view('Elements/Common/sidebar_industries'); ?>

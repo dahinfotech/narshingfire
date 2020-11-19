@@ -1,1 +1,0 @@
-<h2>Service page</h2>
